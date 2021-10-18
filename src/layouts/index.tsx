@@ -13,9 +13,9 @@ const _layout: React.FunctionComponent<I_layoutProps> = (props) => {
      collapsedWidth={0}
      breakpoint={'lg'}
      >
-       <NavLeft/>
+     <NavLeft/>
      </Sider>
-      <Content>
+     <Content>
         <NavHeader/>
         <Content style={{minHeight:'60vh',border:'1px solid #000',margin:'12px'}}>
       {props.children}
